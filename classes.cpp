@@ -13,13 +13,12 @@ class Person
 {
 //Not accessible outside the class
 private:
-    int height;
-
-public:
     string name;
     int age;
     Gender gender;
+    int height;
 
+public:
     // Constructor to initialize a new object
     Person(string _name, int _age, Gender _gender, int _height)
     {
