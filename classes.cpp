@@ -42,6 +42,10 @@ public:
     {
         cout << name << " " << age << " " << gender << " " << height << endl;
     }
+
+    void setHeight(int h) {
+        height = h;
+    }
 };
 
 int main()
@@ -54,6 +58,9 @@ int main()
 
     // Output is the same as Structs
     jo.printInfo();
+    lorenzo.printInfo();
+
+    lorenzo.setHeight(180);
     lorenzo.printInfo();
 
     noName.printInfo();
